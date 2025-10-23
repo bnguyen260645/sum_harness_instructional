@@ -19,7 +19,7 @@
 /* The benchmarking program */
 int main(int argc, char** argv) 
 {
-   std::cout << std::fixed << std::setprecision(2);
+   std::cout << std::fixed << std::setprecision(9);
 
 #define MAX_PROBLEM_SIZE 1 << 28  //  256M
    std::vector<int64_t> problem_sizes{ MAX_PROBLEM_SIZE >> 5, MAX_PROBLEM_SIZE >> 4, MAX_PROBLEM_SIZE >> 3, MAX_PROBLEM_SIZE >> 2, MAX_PROBLEM_SIZE >> 1, MAX_PROBLEM_SIZE};
@@ -38,13 +38,18 @@ int main(int argc, char** argv)
       setup(n, &A[0]);
 
       // insert your timer code here
+      std::chrono::time_point<std::chrono::high_resolution_clock> start_time = std::chrono::high_resolution_clock::now();
+
 
       // invoke method to perform the sum
       t = sum(n, &A[0]);
 
       // insert your end timer code here, and print out elapsed time for this problem size
+      std::chrono::time_point<std::chrono::high_resolution_clock> end_time = std::chrono::high_resolution_clock::now();
+      long long elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end_time - start_time).count();
+      std::cout << " Elapsed time is : " << (elapsed / 1000000000.0) << " seconds" << std::endl;
 
-      printf(" Sum result = %lf \n",t);
+      printf(" Sum result = %lld \n",t);
 
    } // end loop over problem sizes
 }
