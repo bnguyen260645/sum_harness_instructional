@@ -20,7 +20,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-fname = "sample_data_3vars.csv"
+fname = "Nguyen_Ben_CP2_MFLOPS"
 df = pd.read_csv(fname, comment="#")
 print(df)
 
@@ -32,11 +32,11 @@ print("var names =", var_names)
 # assumption: column order - 0=problem size, 1=blas time, 2=basic time
 
 problem_sizes = df[var_names[0]].values.tolist()
-code1_time = df[var_names[1]].values.tolist()
-code2_time = df[var_names[2]].values.tolist()
-code3_time = df[var_names[3]].values.tolist()
+direct_sum = df[var_names[1]].values.tolist()
+vector_sum = df[var_names[2]].values.tolist()
+indirect_sum = df[var_names[3]].values.tolist()
 
-plt.title("Comparison of 3 Codes")
+plt.title("Comparison of MFLOP/s between 3 sum algorithms")
 
 xlocs = [i for i in range(len(problem_sizes))]
 
@@ -49,15 +49,15 @@ plt.xticks(xlocs, problem_sizes)
 # time and problem size? You may need to add some code here to compute
 # MFLOPS, then modify the plt.plot() lines below to plot MFLOPS rather than time.
 
-plt.plot(code1_time, "r-o")
-plt.plot(code2_time, "b-x")
-plt.plot(code3_time, "g-^")
+plt.plot(direct_sum, "r-o")
+plt.plot(vector_sum, "b-x")
+plt.plot(indirect_sum, "g-^")
 
 #plt.xscale("log")
 #plt.yscale("log")
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("runtime")
+plt.ylabel("MFLOP/s")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
 plt.legend(varNames, loc="best")
