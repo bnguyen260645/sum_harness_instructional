@@ -20,7 +20,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-fname = "Nguyen_Ben_CP2_MFLOPS"
+fname = "Nguyen_Ben_CP2_MFLOPS.csv"
 df = pd.read_csv(fname, comment="#")
 print(df)
 
