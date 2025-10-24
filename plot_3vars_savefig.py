@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 
 plot_fname = "myplot.png"
 
-fname = "Nguyen_Ben_CP2_MFLOPS.csv"
+fname = "Nguyen_Ben_CP2_Bandwidth.csv"
 df = pd.read_csv(fname, comment="#")
 print(df)
 
@@ -39,7 +39,7 @@ indirect_sum = df[var_names[3]].values.tolist()
 
 plt.figure()
 
-plt.title("Comparison of MFLOP/s between 3 sum algorithms")
+plt.title("Comparison of % of Memory Bandwidth between 3 sum algorithms")
 
 xlocs = [i for i in range(len(problem_sizes))]
 
@@ -53,7 +53,7 @@ plt.plot(indirect_sum, "g-^")
 #plt.yscale("log")
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("MFLOP/s")
+plt.ylabel("% Memory Bandwidth")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
 plt.legend(varNames, loc="best")
