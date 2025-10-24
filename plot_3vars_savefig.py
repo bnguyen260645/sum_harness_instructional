@@ -45,9 +45,9 @@ xlocs = [i for i in range(len(problem_sizes))]
 
 plt.xticks(xlocs, problem_sizes)
 
-plt.plot(code1_time, "r-o")
-plt.plot(code2_time, "b-x")
-plt.plot(code3_time, "g-^")
+plt.plot(direct_sum, "r-o")
+plt.plot(vector_sum, "b-x")
+plt.plot(indirect_sum, "g-^")
 
 #plt.xscale("log")
 #plt.yscale("log")
