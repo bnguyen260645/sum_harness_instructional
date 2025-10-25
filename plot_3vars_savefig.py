@@ -53,7 +53,7 @@ plt.plot(indirect_sum, "g-^")
 #plt.yscale("log")
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("Memory Latency")
+plt.ylabel("Memory Latency in nanoseconds")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
 plt.legend(varNames, loc="best")
