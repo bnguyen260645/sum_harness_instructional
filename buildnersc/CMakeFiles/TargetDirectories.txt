@@ -1,0 +1,6 @@
+/global/homes/b/bnguyen0/code/sum_harness_instructional/buildnersc/CMakeFiles/rebuild_cache.dir
+/global/homes/b/bnguyen0/code/sum_harness_instructional/buildnersc/CMakeFiles/edit_cache.dir
+/global/homes/b/bnguyen0/code/sum_harness_instructional/buildnersc/CMakeFiles/sum_indirect.dir
+/global/homes/b/bnguyen0/code/sum_harness_instructional/buildnersc/CMakeFiles/sum_vector.dir
+/global/homes/b/bnguyen0/code/sum_harness_instructional/buildnersc/CMakeFiles/sum_direct.dir
+/global/homes/b/bnguyen0/code/sum_harness_instructional/buildnersc/CMakeFiles/benchmark.dir
