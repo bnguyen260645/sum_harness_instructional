@@ -1,30 +1,30 @@
 Working on problem size N=8388608 
  inside sum_indirect problem_setup, N=8388608 
  inside sum_indirect perform_sum, N=8388608 
- Elapsed time is : 0.205916556 seconds
- Sum result = 35408669924720 
+ Elapsed time is : 0.011948980 seconds
+ Sum result = 0 
 Working on problem size N=16777216 
  inside sum_indirect problem_setup, N=16777216 
  inside sum_indirect perform_sum, N=16777216 
- Elapsed time is : 0.135479665 seconds
- Sum result = 141554517324675 
+ Elapsed time is : 0.064388638 seconds
+ Sum result = 139581283080378 
 Working on problem size N=33554432 
  inside sum_indirect problem_setup, N=33554432 
  inside sum_indirect perform_sum, N=33554432 
- Elapsed time is : 0.736425756 seconds
- Sum result = 550500785773429 
+ Elapsed time is : 0.166095975 seconds
+ Sum result = 575454994977145 
 Working on problem size N=67108864 
  inside sum_indirect problem_setup, N=67108864 
  inside sum_indirect perform_sum, N=67108864 
- Elapsed time is : 1.647881256 seconds
- Sum result = 2222071630849196 
+ Elapsed time is : 0.370489686 seconds
+ Sum result = 2264211589811946 
 Working on problem size N=134217728 
  inside sum_indirect problem_setup, N=134217728 
  inside sum_indirect perform_sum, N=134217728 
- Elapsed time is : 4.152431500 seconds
- Sum result = 9015724911922265 
+ Elapsed time is : 0.699247390 seconds
+ Sum result = 8710293069557353 
 Working on problem size N=268435456 
  inside sum_indirect problem_setup, N=268435456 
  inside sum_indirect perform_sum, N=268435456 
- Elapsed time is : 10.412148377 seconds
- Sum result = 35785194078796820 
+ Elapsed time is : 4.059693205 seconds
+ Sum result = 36186514358244033 
