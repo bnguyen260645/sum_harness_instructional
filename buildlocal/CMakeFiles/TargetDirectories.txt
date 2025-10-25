@@ -1,0 +1,6 @@
+/Users/BNguyen260/Desktop/CSC/CSC656/code/sum_harness_instructional/buildlocal/CMakeFiles/benchmark.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/sum_harness_instructional/buildlocal/CMakeFiles/sum_direct.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/sum_harness_instructional/buildlocal/CMakeFiles/sum_vector.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/sum_harness_instructional/buildlocal/CMakeFiles/sum_indirect.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/sum_harness_instructional/buildlocal/CMakeFiles/edit_cache.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/sum_harness_instructional/buildlocal/CMakeFiles/rebuild_cache.dir
